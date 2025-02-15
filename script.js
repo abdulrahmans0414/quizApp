@@ -52,4 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
         },
     ];
 
+    const startBtn = document.getElementById("start-btn");
+    const questionContainer = document.getElementById("question-container");
+    const questionText = document.getElementById("question-text");
+    const choicesList = document.getElementById("choices-list");
+    const nextBtn = document.getElementById("next-btn");
+    const resultContainer = document.getElementById("result-container");
+    const scoreText = document.getElementById("score");
+    const restartBtn = document.getElementById("restart-btn");
+
+
 });
